@@ -19,9 +19,9 @@
 
 ## 📖 Overview
 
-**LostFuzzer** is a comprehensive, all-in-one web security assessment and bug bounty automation tool designed for penetration testers, security researchers, and bug bounty hunters. It integrates over 30+ industry-standard security tools into a single, interactive TUI (Terminal User Interface) that streamlines the entire reconnaissance, crawling, vulnerability scanning, and reporting workflow.
+**What is LostFuzzer?** LostFuzzer is a tool I built to automate the boring parts of bug bounty and web pentesting. Instead of running 20 different tools manually, LostFuzzer puts everything in one place with a simple TUI menu. Just pick your target, choose a module, and let it run.
 
-Built with Python 3 and powered by the ProjectDiscovery ecosystem, LostFuzzer automates everything from initial subdomain discovery to final vulnerability reporting with minimal manual intervention.
+It handles recon, crawling, fuzzing, vulnerability scanning, and reporting. Basically everything you need from start to finish.
 
 ---
 
@@ -130,6 +130,11 @@ All dependencies are automatically installed via `install.sh`:
 - External: SecLists wordlists, Nuclei templates, Chromium browser
 
 ---
+## 👤 Author
+
+- **Name**: KaisarYetiandi
+- **GitHub**: [github.com/KaisarYetiandi](https://github.com/KaisarYetiandi)
+- **Telegram**: [t.me/Darkness_Lock](https://t.me/Darkness_Lock)
 
 ## 🚀 Installation
 
