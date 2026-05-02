@@ -28,7 +28,7 @@ except ImportError as e:
     print(f"[!] Missing dependency: {e}\n    pip install -r requirements.txt")
     sys.exit(1)
 
-VERSION     = "3.0.0"
+VERSION     = "1.0.0"
 AUTHOR      = "KaisarYetiandi"
 GITHUB      = "github.com/KaisarYetiandi"
 TELEGRAM    = "t.me/Darkness_Lock"
