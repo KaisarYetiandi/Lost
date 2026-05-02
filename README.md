@@ -1,5 +1,6 @@
 <div align="center">
-![KaisarYetiandi]([https://github.com/KaisarYetiandi/CyberShell/blob/main/KaisarYetiandi.png](https://raw.githubusercontent.com/KaisarYetiandi/Lost/refs/heads/main/LostFuz.png)
+  
+![KaisarYetiandi](https://raw.githubusercontent.com/KaisarYetiandi/Lost/refs/heads/main/LostFuz.png)
   
   <h1>LostFuzzer v1.0.0</h1>
   
