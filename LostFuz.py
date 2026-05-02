@@ -1,4 +1,5 @@
-#!/usr/bin/env python3
+#Created By KaisarYetiandi
+#Contact: t.me/Darkness_Lock
 
 import os
 import sys
