@@ -22,7 +22,7 @@
 It handles recon, crawling, fuzzing, vulnerability scanning, and reporting. Basically everything you need from start to finish.
 
 ---
-##Features
+**Features**
 
 ### 🎮 Beautiful Interactive Terminal UI
 - **Keyboard Navigation** — Intuitive navigation with up/down arrow keys
