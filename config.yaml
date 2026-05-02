@@ -1,0 +1,25 @@
+threads: 50
+rate_limit: 150
+timeout: 15
+retries: 3
+proxy: null
+tor: false
+tor_proxy: socks5://127.0.0.1:9050
+wordlist: /usr/share/seclists/Discovery/Web-Content/raft-medium-words.txt
+resolvers: /usr/share/seclists/Miscellaneous/dns-resolvers.txt
+nuclei_templates: ~/nuclei-templates
+notify_telegram: false
+telegram_token: ""
+telegram_chatid: ""
+output_json: true
+screenshot: true
+wildcard_filter: true
+cdn_filter: false
+user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+scope: []
+exclude: []
+ports: 80,443,8080,8443,8888,3000,3001,5000,5001,8000,8001,9090,9443
+depth: 5
+delay: 0
+follow_redirects: true
+nuclei_severity: critical,high,medium,low
