@@ -2,7 +2,7 @@
 
   <img src="https://github.com/user-attachments/assets/0e8e8f8e-0e8e-4f8e-9e8e-0e8e8f8e0e8e" width="180" alt="LostFuzzer Logo">
   
-  <h1>🔍 LostFuzzer v1.0.0</h1>
+  <h1>LostFuzzer v1.0.0</h1>
   
   **Advanced Bug Bounty Automation & Web Security Testing Framework**
 
