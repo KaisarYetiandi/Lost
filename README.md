@@ -127,11 +127,6 @@ All dependencies are automatically installed via `install.sh`:
 - External: SecLists wordlists, Nuclei templates, Chromium browser
 
 ---
-## 👤 Author
-
-- **Name**: KaisarYetiandi
-- **GitHub**: [github.com/KaisarYetiandi](https://github.com/KaisarYetiandi)
-- **Telegram**: [t.me/Darkness_Lock](https://t.me/Darkness_Lock)
 
 ## 🚀 Installation
 
@@ -139,3 +134,15 @@ All dependencies are automatically installed via `install.sh`:
 
 ```bash
 git clone https://github.com/KaisarYetiandi/LostFuzzer.git && cd LostFuzzer && sudo bash install.sh
+```
+## 👤 Author
+
+- **Name**: KaisarYetiandi
+- **GitHub**: [github.com/KaisarYetiandi](https://github.com/KaisarYetiandi)
+- **Telegram**: [t.me/Darkness_Lock](https://t.me/Darkness_Lock)
+
+## Support
+
+<a href="https://buymeacoffee.com/USERNAME" target="_blank">
+  <img src="https://img.shields.io/badge/☕-Buy_me_a_coffee-orange?style=for-the-badge" />
+</a>
