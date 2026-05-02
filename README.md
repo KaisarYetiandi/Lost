@@ -1,6 +1,5 @@
 <div align="center">
-
-  <img src="[https://raw.githubusercontent.com/KaisarYetiandi/Lost/refs/heads/main/LostFuz.png]" width="180" alt="LostFuzzer Logo">
+![KaisarYetiandi]([https://github.com/KaisarYetiandi/CyberShell/blob/main/KaisarYetiandi.png](https://raw.githubusercontent.com/KaisarYetiandi/Lost/refs/heads/main/LostFuz.png)
   
   <h1>LostFuzzer v1.0.0</h1>
   
