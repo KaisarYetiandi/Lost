@@ -2,101 +2,101 @@
 
   <img src="https://github.com/user-attachments/assets/0e8e8f8e-0e8e-4f8e-9e8e-0e8e8f8e0e8e" width="180" alt="LostFuzzer Logo">
   
-  <h1>🔍 LostFuzzer v3.0.0</h1>
+  <h1>🔍 LostFuzzer v1.0.0</h1>
   
-  **Framework Otomatisasi Bug Bounty & Pengujian Keamanan Web Tingkat Lanjut**
+  **Advanced Bug Bounty Automation & Web Security Testing Framework**
 
   [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-  [![Lisensi](https://img.shields.io/badge/Lisensi-MIT-green.svg)](LICENSE)
-  [![Versi](https://img.shields.io/badge/Versi-3.0.0-purple.svg)](https://github.com/KaisarYetiandi/LostFuzzer)
-  [![Bintang](https://img.shields.io/github/stars/KaisarYetiandi/LostFuzzer?style=social)](https://github.com/KaisarYetiandi/LostFuzzer)
+  [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+  [![Version](https://img.shields.io/badge/Version-3.0.0-purple.svg)](https://github.com/KaisarYetiandi/LostFuzzer)
+  [![Stars](https://img.shields.io/github/stars/KaisarYetiandi/LostFuzzer?style=social)](https://github.com/KaisarYetiandi/LostFuzzer)
 
-  **All-in-One** alat otomatisasi penetration testing dengan tampilan TUI yang cantik.
+  **All-in-One** automated penetration testing toolkit with a beautiful TUI interface.
 
 </div>
 
 ---
 
-## 📖 Gambaran Umum
+## 📖 Overview
 
-**LostFuzzer** adalah alat otomatisasi pengujian keamanan web dan bug bounty lengkap yang dirancang untuk penetration tester, peneliti keamanan, dan pemburu bug bounty. Alat ini mengintegrasikan lebih dari 30+ tools keamanan standar industri ke dalam satu TUI (Terminal User Interface) interaktif yang menyederhanakan seluruh alur kerja mulai dari reconnaissance, crawling, pemindaian kerentanan, hingga pelaporan.
+**LostFuzzer** is a comprehensive, all-in-one web security assessment and bug bounty automation tool designed for penetration testers, security researchers, and bug bounty hunters. It integrates over 30+ industry-standard security tools into a single, interactive TUI (Terminal User Interface) that streamlines the entire reconnaissance, crawling, vulnerability scanning, and reporting workflow.
 
-Dibangun dengan Python 3 dan didukung oleh ekosistem ProjectDiscovery, LostFuzzer mengotomatiskan semuanya mulai dari penemuan subdomain awal hingga laporan kerentanan akhir dengan intervensi manual yang minimal.
+Built with Python 3 and powered by the ProjectDiscovery ecosystem, LostFuzzer automates everything from initial subdomain discovery to final vulnerability reporting with minimal manual intervention.
 
 ---
 
-## 🌟 Fitur Utama
+## 🌟 Key Features
 
-### 🎮 Antarmuka Terminal Interaktif yang Cantik
-- **Navigasi Keyboard** — Navigasi intuitif dengan tombol panah atas/bawah
-- **Rich Terminal UI** — Output berwarna, indikator progres, tabel terformat
-- **Status Real-time** — Status eksekusi tools secara langsung
-- **Browser Temuan** — Review kerentanan dalam terminal dengan pewarnaan severity
-- **Dukungan Resume** — Resume pemindaian berbasis checkpoint untuk engagement besar
+### 🎮 Beautiful Interactive Terminal UI
+- **Keyboard Navigation** — Intuitive navigation with up/down arrow keys
+- **Rich Terminal UI** — Color-coded output, progress indicators, formatted tables
+- **Real-time Status** — Live tool execution status updates
+- **Findings Browser** — In-terminal vulnerability review with severity coloring
+- **Resume Support** — Checkpoint-based scan resumption for large engagements
 
-### 🔍 Reconnaissance (Pengintaian)
-- **Penemuan Subdomain** — Enumerasi subdomain rekursif menggunakan Subfinder dengan banyak sumber
-- **Probing Host Live** — Deteksi layanan HTTP/HTTPS dengan Httpx (kode status, judul, teknologi, IP)
-- **Pemindaian Port** — Pemindaian port TCP cepat via Naabu dengan deteksi protokol pintar
-- **Analisis SSL/TLS** — Transparansi sertifikat, enumerasi SAN, pengecekan kadaluarsa dengan Tlsx
-- **Pemetaan ASN** — Penemuan Autonomous System Number dan ekspansi rentang IP
-- **Deteksi CDN** — Identifikasi Content Delivery Network dan penilaian bypass
+### 🔍 Reconnaissance
+- **Subdomain Discovery** — Recursive subdomain enumeration using Subfinder with multiple sources
+- **Live Host Probing** — HTTP/HTTPS service detection with Httpx (status codes, titles, technologies, IPs)
+- **Port Scanning** — Fast TCP port scanning via Naabu with smart protocol detection
+- **SSL/TLS Analysis** — Certificate transparency, SAN enumeration, expiry checks with Tlsx
+- **ASN Mapping** — Autonomous System Number discovery and IP range expansion
+- **CDN Detection** — Content Delivery Network identification and bypass assessment
 
-### 🕷️ Crawling & Pengumpulan URL
-- **Pengumpulan URL Historis** — Wayback Machine + AlienVault OTX + CommonCrawl via Gau & Waybackurls
-- **Deep Crawling** — Crawling sadar JavaScript dengan Katana (dukungan SPA, rendering JS)
-- **Penemuan Link** — Ekstraksi endpoint dan path tersembunyi dengan xnLinkFinder
-- **Penambangan Parameter** — Penemuan parameter otomatis via ParamSpider dengan klasifikasi parameter injectable
-- **Deduplikasi URL** — Normalisasi dan filtering URL cerdas dengan Uro
-- **Analisis JavaScript** — Ekstraksi file JS, penemuan endpoint, dan pemindaian secret
+### 🕷️ Crawling & URL Harvesting
+- **Historical URL Collection** — Wayback Machine + AlienVault OTX + CommonCrawl via Gau & Waybackurls
+- **Deep Crawling** — JavaScript-aware crawling with Katana (SPA support, JS rendering)
+- **Link Discovery** — Endpoint and hidden path extraction with xnLinkFinder
+- **Parameter Mining** — Automated parameter discovery via ParamSpider with injectable parameter classification
+- **URL Deduplication** — Intelligent URL normalization and filtering with Uro
+- **JavaScript Analysis** — JS file extraction, endpoint discovery, and secret scanning
 
-### 🗂️ Penemuan Konten
-- **Fuzzing Direktori** — Fuzzing performa tinggi dengan Ffuf (auto-kalibrasi, output JSON)
-- **Bruteforce Direktori** — Penemuan konten rekursif dengan Feroxbuster dan Dirsearch
-- **Dukungan Wordlist** — Integrasi SecLists dengan wordlist yang dapat disesuaikan (raft-medium, common, directory-list)
+### 🗂️ Content Discovery
+- **Directory Fuzzing** — High-performance fuzzing with Ffuf (auto-calibration, JSON output)
+- **Directory Bruteforce** — Recursive content discovery with Feroxbuster and Dirsearch
+- **Wordlist Support** — SecLists integration with customizable wordlists (raft-medium, common, directory-list)
 
-### 🔐 Pemindaian Kerentanan
-- **Deteksi XSS** — Reflected/DOM XSS via Dalfox + XSStrike + template Nuclei
-- **SQL Injection** — Deteksi otomatis dengan SQLMap (tamper scripts, teknik evasion)
-- **SSRF** — Deteksi Server-Side Request Forgery dengan Nuclei DAST
-- **LFI/Path Traversal** — Pengujian Local File Inclusion dan directory traversal
-- **Open Redirect** — Pemindaian kerentanan pengalihan URL
-- **CORS Misconfiguration** — Analisis kebijakan Cross-Origin Resource Sharing
-- **Subdomain Takeover** — Deteksi takeover berbasis DNS dengan Subzy
-- **Serangan JWT** — Analisis JSON Web Token, kebingungan algoritma, cracking kunci
-- **GraphQL** — Deteksi query introspeksi dan penemuan endpoint
-- **CRLF Injection** — Pengujian injeksi header HTTP
-- **Nuclei Full Scan** — 5000+ template mencakup CVE, miskonfigurasi, dan eksposur
+### 🔐 Vulnerability Scanning
+- **XSS Detection** — Reflected/DOM XSS via Dalfox + XSStrike + Nuclei templates
+- **SQL Injection** — Automated detection with SQLMap (tamper scripts, evasion techniques)
+- **SSRF** — Server-Side Request Forgery detection with Nuclei DAST
+- **LFI/Path Traversal** — Local File Inclusion and directory traversal testing
+- **Open Redirect** — URL redirection vulnerability scanning
+- **CORS Misconfiguration** — Cross-Origin Resource Sharing policy analysis
+- **Subdomain Takeover** — DNS-based takeover detection with Subzy
+- **JWT Attacks** — JSON Web Token analysis, algorithm confusion, key cracking
+- **GraphQL** — Introspection query detection and endpoint discovery
+- **CRLF Injection** — HTTP header injection testing
+- **Nuclei Full Scan** — 5000+ templates covering CVEs, misconfigurations, and exposures
 
-### 🔑 Deteksi Secret
-- **Pemindaian API Key** — Ekstraksi secret berbasis regex dari file JavaScript
-- **Kebocoran Kredensial** — Pemindaian riwayat Git dan sistem file dengan TruffleHog
-- **SecretFinder** — API keys, token, password di endpoint JS
+### 🔑 Secret Detection
+- **API Key Scanning** — Regex-based secret extraction from JavaScript files
+- **Credential Leaks** — Git history, file system scanning with TruffleHog
+- **SecretFinder** — API keys, tokens, passwords in JS endpoints
 
 ### 📸 Visual Recon
-- **Screenshot** — Screenshot halaman web otomatis via GoWitness
-- **Galeri Visual** — Direktori screenshot terorganisir untuk review manual cepat
+- **Screenshots** — Automated webpage screenshots via GoWitness
+- **Visual Gallery** — Organized screenshot directory for quick manual review
 
-### 📊 Pelaporan
-- **HTML Report** — Laporan HTML responsif bertema gelap yang cantik dengan statistik dan temuan
-- **JSON Export** — Output JSON machine-readable untuk integrasi dengan tools lain
-- **Database SQLite** — Penyimpanan temuan persisten dengan riwayat pemindaian
-- **Notifikasi Telegram** — Alert real-time untuk penyelesaian pemindaian dan kerentanan kritis
+### 📊 Reporting
+- **HTML Report** — Beautiful, dark-themed responsive HTML report with statistics and findings
+- **JSON Export** — Machine-readable JSON output for integration with other tools
+- **SQLite Database** — Persistent findings storage with scan history
+- **Telegram Notifications** — Real-time alerts for scan completion and critical vulnerabilities
 
 ---
 
-## 🛠️ Tools Terintegrasi
+## 🛠️ Integrated Tools
 
-| Kategori | Tools |
+| Category | Tools |
 |----------|-------|
-| **Enumerasi Subdomain** | Subfinder, ASNMap |
-| **Pemindaian Port** | Naabu |
-| **Probing HTTP** | Httpx |
+| **Subdomain Enumeration** | Subfinder, ASNMap |
+| **Port Scanning** | Naabu |
+| **HTTP Probing** | Httpx |
 | **SSL/TLS** | Tlsx |
-| **Deteksi CDN** | CdnCheck |
-| **Pengumpulan URL** | Gau, Waybackurls, Katana, xnLinkFinder |
-| **Penemuan Parameter** | ParamSpider, Uro |
-| **Penemuan Konten** | Ffuf, Feroxbuster, Dirsearch |
+| **CDN Detection** | CdnCheck |
+| **URL Harvesting** | Gau, Waybackurls, Katana, xnLinkFinder |
+| **Parameter Discovery** | ParamSpider, Uro |
+| **Content Discovery** | Ffuf, Feroxbuster, Dirsearch |
 | **XSS** | Dalfox, XSStrike, Nuclei |
 | **SQL Injection** | SQLMap, Nuclei |
 | **SSRF** | Nuclei (DAST) |
@@ -105,35 +105,35 @@ Dibangun dengan Python 3 dan didukung oleh ekosistem ProjectDiscovery, LostFuzze
 | **Subdomain Takeover** | Subzy, Nuclei |
 | **JWT** | jwt-tool, Nuclei |
 | **CRLF** | CRLFuzz |
-| **Pemindaian Secret** | SecretFinder, TruffleHog |
-| **Screenshot** | GoWitness |
-| **Pemindaian Kerentanan** | Nuclei (5000+ template) |
-| **Pelaporan** | HTML/JSON/SQLite Kustom |
+| **Secret Scanning** | SecretFinder, TruffleHog |
+| **Screenshots** | GoWitness |
+| **Vulnerability Scanning** | Nuclei (5000+ templates) |
+| **Reporting** | Custom HTML/JSON/SQLite |
 
 ---
 
-## 📋 Persyaratan
+## 📋 Requirements
 
-### Persyaratan Sistem
-- **OS**: Linux (Ubuntu 20.04+, Debian 11+, Kali Linux direkomendasikan)
-- **RAM**: Minimum 4GB (8GB+ direkomendasikan untuk pemindaian penuh)
-- **Disk**: 10GB+ ruang kosong (untuk tools, wordlist, dependencies)
-- **Python**: 3.8 atau lebih tinggi
-- **Go**: 1.19 atau lebih tinggi
-- **Root/Sudo**: Diperlukan untuk instalasi dan beberapa tools
+### System Requirements
+- **OS**: Linux (Ubuntu 20.04+, Debian 11+, Kali Linux recommended)
+- **RAM**: Minimum 4GB (8GB+ recommended for full scans)
+- **Disk**: 10GB+ free space (for tools, wordlists, dependencies)
+- **Python**: 3.8 or higher
+- **Go**: 1.19 or higher
+- **Root/Sudo**: Required for installation and some tooling
 
 ### Dependencies
-Semua dependencies diinstal otomatis melalui `install.sh`:
-- Paket Python: rich, requests, pyyaml, urllib3, jinja2, uro, paramspider
-- Paket sistem: python3, golang, git, curl, wget, jq, unzip, tor
-- Go tools: 25+ tools keamanan dari ProjectDiscovery dan komunitas
-- Eksternal: wordlist SecLists, template Nuclei, browser Chromium
+All dependencies are automatically installed via `install.sh`:
+- Python packages: rich, requests, pyyaml, urllib3, jinja2, uro, paramspider
+- System packages: python3, golang, git, curl, wget, jq, unzip, tor
+- Go tools: 25+ security tools from ProjectDiscovery and community
+- External: SecLists wordlists, Nuclei templates, Chromium browser
 
 ---
 
-## 🚀 Instalasi
+## 🚀 Installation
 
-### Instalasi Satu Baris
+### One-Line Installation
 
 ```bash
 git clone https://github.com/KaisarYetiandi/LostFuzzer.git && cd LostFuzzer && sudo bash install.sh
