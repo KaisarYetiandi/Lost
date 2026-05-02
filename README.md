@@ -17,15 +17,12 @@
 
 ---
 
-## 📖 Overview
-
 **What is LostFuzzer?** LostFuzzer is a tool I built to automate the boring parts of bug bounty and web pentesting. Instead of running 20 different tools manually, LostFuzzer puts everything in one place with a simple TUI menu. Just pick your target, choose a module, and let it run.
 
 It handles recon, crawling, fuzzing, vulnerability scanning, and reporting. Basically everything you need from start to finish.
 
 ---
-
-## 🌟 Key Features
+Features
 
 ### 🎮 Beautiful Interactive Terminal UI
 - **Keyboard Navigation** — Intuitive navigation with up/down arrow keys
