@@ -8,8 +8,8 @@
 
   [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
   [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-  [![Version](https://img.shields.io/badge/Version-3.0.0-purple.svg)](https://github.com/KaisarYetiandi/LostFuzzer)
-  [![Stars](https://img.shields.io/github/stars/KaisarYetiandi/LostFuzzer?style=social)](https://github.com/KaisarYetiandi/LostFuzzer)
+  [![Version](https://img.shields.io/badge/Version-1.0.0-purple.svg)](https://github.com/KaisarYetiandi/Lost)
+  [![Stars](https://img.shields.io/github/stars/KaisarYetiandi/Lost?style=social)](https://github.com/KaisarYetiandi/Lost)
 
   **All-in-One** automated penetration testing toolkit with a beautiful TUI interface.
 
