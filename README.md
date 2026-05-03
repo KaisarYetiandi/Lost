@@ -133,7 +133,7 @@ All dependencies are automatically installed via `install.sh`:
 ### One-Line Installation
 
 ```bash
-git clone https://github.com/KaisarYetiandi/Lost.git && cd LostFuzzer && sudo bash install.sh
+git clone https://github.com/KaisarYetiandi/Lost.git && cd Lost && sudo bash install.sh
 ```
 ## 👤 Author
 
