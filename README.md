@@ -143,6 +143,6 @@ git clone https://github.com/KaisarYetiandi/Lost.git && cd LostFuzzer && sudo ba
 
 ## Support
 
-<a href="https://buymeacoffee.com/USERNAME" target="_blank">
+<a href="https://buymeacoffee.com/KaisarYetiandi" target="_blank">
   <img src="https://img.shields.io/badge/☕-Buy_me_a_coffee-orange?style=for-the-badge" />
 </a>
