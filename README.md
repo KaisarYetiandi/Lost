@@ -1,7 +1,7 @@
 <div align="center">
-  
-![KaisarYetiandi]([[[https://raw.githubusercontent.com/KaisarYetiandi/Lost/refs/heads/main/LostFuz.png])
-  
+
+ ![KaisarYetiandi](https://raw.githubusercontent.com/KaisarYetiandi/Lost/main/LostFuz.png) 
+ 
   <h1>LostFuzzer</h1>
   
   **Advanced Bug Bounty Automation & Web Security Testing Framework**
