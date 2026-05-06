@@ -1,6 +1,6 @@
 <div align="center">
   
-![KaisarYetiandi]([[https://raw.githubusercontent.com/KaisarYetiandi/Lost/refs/heads/main/LostFuz.png](https://raw.githubusercontent.com/KaisarYetiandi/Lost/refs/heads/main/LostFuz.jpg)])
+![KaisarYetiandi]([[[https://raw.githubusercontent.com/KaisarYetiandi/Lost/refs/heads/main/LostFuz.png])
   
   <h1>LostFuzzer</h1>
   
