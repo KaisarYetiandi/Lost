@@ -1,6 +1,6 @@
 <div align="center">
 
- [KaisarYetiandi](https://raw.githubusercontent.com/KaisarYetiandi/Lost/refs/heads/main/LostFuz.png)
+ [KaisarYetiandi](https://raw.githubusercontent.com/KaisarYetiandi/Lost/refs/heads/main/LostFuz.jpg)
  
   <h1>LostFuzzer</h1>
   
