@@ -2,7 +2,7 @@
   
 ![KaisarYetiandi](https://raw.githubusercontent.com/KaisarYetiandi/Lost/refs/heads/main/LostFuz.png)
   
-  <h1>LostFuzzer v1.0.0</h1>
+  <h1>LostFuzzer</h1>
   
   **Advanced Bug Bounty Automation & Web Security Testing Framework**
 
